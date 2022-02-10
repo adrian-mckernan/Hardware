@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name ADP7118AUJZR7)(type KiCad)(uri ${PROJECTS}/LTC6946/ADP7118AUJZR7/ADP7118AUJZR7/ADP7118AUJZR7.pretty)(options "")(descr ""))
+)
