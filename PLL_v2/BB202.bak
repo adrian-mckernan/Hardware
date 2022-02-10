@@ -1,0 +1,149 @@
+EESchema Schematic File Version 4
+LIBS:PLL_v1-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:C C35
+U 1 1 5E678730
+P 2050 3600
+F 0 "C35" V 1798 3600 50  0000 C CNN
+F 1 "100n" V 1889 3600 50  0000 C CNN
+F 2 "" H 2088 3450 50  0001 C CNN
+F 3 "~" H 2050 3600 50  0001 C CNN
+	1    2050 3600
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C38
+U 1 1 5E67880E
+P 3650 3600
+F 0 "C38" V 3398 3600 50  0000 C CNN
+F 1 "100n" V 3489 3600 50  0000 C CNN
+F 2 "" H 3688 3450 50  0001 C CNN
+F 3 "~" H 3650 3600 50  0001 C CNN
+	1    3650 3600
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C37
+U 1 1 5E6788A3
+P 3150 3200
+F 0 "C37" H 3265 3246 50  0000 L CNN
+F 1 "47pF" H 3265 3155 50  0000 L CNN
+F 2 "" H 3188 3050 50  0001 C CNN
+F 3 "~" H 3150 3200 50  0001 C CNN
+	1    3150 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C36
+U 1 1 5E678937
+P 2600 2500
+F 0 "C36" V 2348 2500 50  0000 C CNN
+F 1 "10u" V 2439 2500 50  0000 C CNN
+F 2 "" H 2638 2350 50  0001 C CNN
+F 3 "~" H 2600 2500 50  0001 C CNN
+	1    2600 2500
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0139
+U 1 1 5E678982
+P 3950 2800
+F 0 "#PWR0139" H 3950 2550 50  0001 C CNN
+F 1 "GND" H 3955 2627 50  0000 C CNN
+F 2 "" H 3950 2800 50  0001 C CNN
+F 3 "" H 3950 2800 50  0001 C CNN
+	1    3950 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Capacitance D2
+U 1 1 5E678AB8
+P 3150 2750
+F 0 "D2" V 3104 2829 50  0000 L CNN
+F 1 "BB202" V 3195 2829 50  0000 L CNN
+F 2 "" H 3150 2750 50  0001 C CNN
+F 3 "~" H 3150 2750 50  0001 C CNN
+	1    3150 2750
+	0    1    1    0   
+$EndComp
+Text GLabel 2050 2500 0    50   Input ~ 0
+Phase_tune
+Text GLabel 1500 3600 0    50   Input ~ 0
+10MHz_in
+Text GLabel 4200 3600 2    50   Input ~ 0
+10MHz_phase_delta
+Wire Wire Line
+	2050 2500 2300 2500
+Wire Wire Line
+	2750 2500 3150 2500
+Wire Wire Line
+	3150 2500 3150 2600
+Wire Wire Line
+	3150 2900 3150 2950
+Wire Wire Line
+	3150 3600 3150 3350
+Wire Wire Line
+	3800 3600 4200 3600
+Wire Wire Line
+	3150 3600 3500 3600
+Wire Wire Line
+	3950 2800 3950 2500
+Wire Wire Line
+	3950 2500 3150 2500
+Connection ~ 3150 2500
+$Comp
+L Device:R R18
+U 1 1 5E678D10
+P 2650 2950
+F 0 "R18" V 2443 2950 50  0000 C CNN
+F 1 "100k" V 2534 2950 50  0000 C CNN
+F 2 "" V 2580 2950 50  0001 C CNN
+F 3 "~" H 2650 2950 50  0001 C CNN
+	1    2650 2950
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R19
+U 1 1 5E678D53
+P 2750 3600
+F 0 "R19" V 2543 3600 50  0000 C CNN
+F 1 "120R" V 2634 3600 50  0000 C CNN
+F 2 "" V 2680 3600 50  0001 C CNN
+F 3 "~" H 2750 3600 50  0001 C CNN
+	1    2750 3600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2500 2950 2300 2950
+Wire Wire Line
+	2300 2950 2300 2500
+Connection ~ 2300 2500
+Wire Wire Line
+	2300 2500 2450 2500
+Wire Wire Line
+	2800 2950 3150 2950
+Connection ~ 3150 2950
+Wire Wire Line
+	3150 2950 3150 3050
+Wire Wire Line
+	1500 3600 1900 3600
+Wire Wire Line
+	2200 3600 2600 3600
+Wire Wire Line
+	2900 3600 3150 3600
+Connection ~ 3150 3600
+$EndSCHEMATC

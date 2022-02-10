@@ -1,0 +1,129 @@
+04-01 16:03:53 replicate_layout.action_replicate_layout 305:Plugin executed on: 'win32'
+04-01 16:03:53 replicate_layout.action_replicate_layout 306:Plugin executed with python version: '2.7.16 (default, Aug 15 2019, 17:51:40)  [GCC 9.2.0 64 bit (AMD64)]'
+04-01 16:03:53 replicate_layout.action_replicate_layout 307:KiCad build version: Unknown
+04-01 16:03:53 replicate_layout.action_replicate_layout 308:Replicate layout plugin version: 64 started
+04-01 16:03:53 replicate_layout.action_replicate_layout 340:Preparing replicator with U10 as a reference
+04-01 16:03:53 replicate_layout.replicatelayout 211:getting project hierarchy from schematics
+04-01 16:03:53 replicate_layout.replicatelayout 213:Project hierarchy looks like:
+{'5E7E155F': ['STM32F051K4T_1', u'C:\\Data\\Dropbox\\KiCad\\Projects\\LTC6946\\PLL_v2\\STM32F051K4T.sch'], '5E7E155D': ['LTC6946_1', u'C:\\Data\\Dropbox\\KiCad\\Projects\\LTC6946\\PLL_v2\\LTC6946.sch'], '5E8F4D50': ['PLL_5', u'C:\\Data\\Dropbox\\KiCad\\Projects\\LTC6946\\PLL_v2\\PLL_1.sch'], '5E853B83': ['PLL_2', u'C:\\Data\\Dropbox\\KiCad\\Projects\\LTC6946\\PLL_v2\\PLL_1.sch'], '5E8A572A': ['PLL_3', u'C:\\Data\\Dropbox\\KiCad\\Projects\\LTC6946\\PLL_v2\\PLL_1.sch'], '5E8A57B2': ['PLL_4', u'C:\\Data\\Dropbox\\KiCad\\Projects\\LTC6946\\PLL_v2\\PLL_1.sch'], '5E6F70DF': ['PLL_1', u'C:\\Data\\Dropbox\\KiCad\\Projects\\LTC6946\\PLL_v2\\PLL_1.sch']}
+04-01 16:03:53 replicate_layout.replicatelayout 221:getting a list of all footprints on board
+04-01 16:03:53 replicate_layout.action_replicate_layout 367:source anchor footprint is u'U10'
+Located on:['PLL_2', 'LTC6946_1']
+With filenames:[u'PLL_1.sch', u'LTC6946.sch']
+With sheet_id:['PLL_2', 'LTC6946_1']
+04-01 16:03:53 replicate_layout.action_replicate_layout 371:Corresponding footprints are 
+[(u'U5', ['PLL_1', 'LTC6946_1']), (u'U10', ['PLL_2', 'LTC6946_1']), (u'U16', ['PLL_3', 'LTC6946_1']), (u'U22', ['PLL_4', 'LTC6946_1']), (u'U28', ['PLL_5', 'LTC6946_1'])]
+04-01 16:03:53 replicate_layout.action_replicate_layout 384:Showing dialog
+04-01 16:03:53 replicate_layout.action_replicate_layout 388:Pcbnew position: wx.Point(-8, -8)
+04-01 16:03:53 replicate_layout.action_replicate_layout 394:Display 0: wx.Rect(0, 0, 1920, 1080)
+04-01 16:03:53 replicate_layout.action_replicate_layout 394:Display 1: wx.Rect(-1920, 0, 1536, 864)
+04-01 16:03:53 replicate_layout.action_replicate_layout 398:Toolbar position: wx.Point(1722, 121)
+04-01 16:03:53 replicate_layout.action_replicate_layout 405:Dialog position: wx.Point(1409, 121)
+04-01 16:03:57 replicate_layout.replicatelayout 245:construcing a list of sheets suitable for replication on level:'PLL_2', file:u'PLL_1.sch'
+04-01 16:03:57 replicate_layout.replicatelayout 252:Source sheet path up to the level:['PLL_2']
+04-01 16:03:57 replicate_layout.replicatelayout 256:Footprints on the sheets:
+[u'U5', u'U10', u'U16', u'U22', u'U28']
+04-01 16:03:57 replicate_layout.replicatelayout 259:Footprints raw sheet ids:
+[u'/5E6F70DF/5E7E155D/5E67AD66', u'/5E853B83/5E7E155D/5E67AD66', u'/5E8A572A/5E7E155D/5E67AD66', u'/5E8A57B2/5E7E155D/5E67AD66', u'/5E8F4D50/5E7E155D/5E67AD66']
+04-01 16:03:57 replicate_layout.replicatelayout 275:All sheets to replicate:
+[['PLL_1'], ['PLL_2'], ['PLL_3'], ['PLL_4'], ['PLL_5']]
+04-01 16:03:57 replicate_layout.replicatelayout 280:All sheets to replicate sorted:
+[['PLL_1'], ['PLL_2'], ['PLL_3'], ['PLL_4'], ['PLL_5']]
+04-01 16:03:57 replicate_layout.replicatelayout 286:All sheets to replicate sorted and without source sheet:
+[['PLL_1'], ['PLL_3'], ['PLL_4'], ['PLL_5']]
+04-01 16:04:04 replicate_layout.replicatelayout 245:construcing a list of sheets suitable for replication on level:'PLL_2', file:u'PLL_1.sch'
+04-01 16:04:04 replicate_layout.replicatelayout 252:Source sheet path up to the level:['PLL_2']
+04-01 16:04:04 replicate_layout.replicatelayout 256:Footprints on the sheets:
+[u'U5', u'U10', u'U16', u'U22', u'U28']
+04-01 16:04:04 replicate_layout.replicatelayout 259:Footprints raw sheet ids:
+[u'/5E6F70DF/5E7E155D/5E67AD66', u'/5E853B83/5E7E155D/5E67AD66', u'/5E8A572A/5E7E155D/5E67AD66', u'/5E8A57B2/5E7E155D/5E67AD66', u'/5E8F4D50/5E7E155D/5E67AD66']
+04-01 16:04:04 replicate_layout.replicatelayout 275:All sheets to replicate:
+[['PLL_1'], ['PLL_2'], ['PLL_3'], ['PLL_4'], ['PLL_5']]
+04-01 16:04:04 replicate_layout.replicatelayout 280:All sheets to replicate sorted:
+[['PLL_1'], ['PLL_2'], ['PLL_3'], ['PLL_4'], ['PLL_5']]
+04-01 16:04:04 replicate_layout.replicatelayout 286:All sheets to replicate sorted and without source sheet:
+[['PLL_1'], ['PLL_3'], ['PLL_4'], ['PLL_5']]
+04-01 16:04:04 replicate_layout.action_replicate_layout 179:Replicating layout
+04-01 16:04:04 replicate_layout.replicatelayout 986:Starting replication of sheets: [['PLL_3'], ['PLL_4'], ['PLL_5']]
+on level: ['PLL_2']
+with tracks=True, zone=True, text=True, containing=True, remove=False, locked=False
+04-01 16:04:04 root 261:updating GUI message: 'Preparing for replication'
+04-01 16:04:04 root 266:updating GUI with: 0
+04-01 16:04:04 replicate_layout.replicatelayout 552:Getting the list of source footprints
+04-01 16:04:04 replicate_layout.replicatelayout 556:Getting the list of all the remaining footprints
+04-01 16:04:04 replicate_layout.replicatelayout 560:Getting nets local to source footprints
+04-01 16:04:05 replicate_layout.replicatelayout 564:Getting source bounding box
+04-01 16:04:05 root 266:updating GUI with: 37
+04-01 16:04:05 replicate_layout.replicatelayout 568:Getting source tracks
+04-01 16:04:05 replicate_layout.replicatelayout 572:Getting source zones
+04-01 16:04:05 root 266:updating GUI with: 62
+04-01 16:04:05 replicate_layout.replicatelayout 576:Getting source text items
+04-01 16:04:05 replicate_layout.replicatelayout 580:Getting source text items
+04-01 16:04:05 root 261:updating GUI message: 'Replicating footprints'
+04-01 16:04:05 replicate_layout.replicatelayout 586:Replicating footprints
+04-01 16:04:05 replicate_layout.replicatelayout 592:Replicating footprints on sheet ['PLL_3']
+04-01 16:04:05 root 266:updating GUI with: 3
+04-01 16:04:05 root 266:updating GUI with: 7
+04-01 16:04:05 root 266:updating GUI with: 11
+04-01 16:04:05 root 266:updating GUI with: 15
+04-01 16:04:05 root 266:updating GUI with: 20
+04-01 16:04:05 root 266:updating GUI with: 23
+04-01 16:04:05 root 266:updating GUI with: 28
+04-01 16:04:05 root 266:updating GUI with: 31
+04-01 16:04:05 root 266:updating GUI with: 32
+04-01 16:04:05 root 266:updating GUI with: 33
+04-01 16:04:05 replicate_layout.replicatelayout 592:Replicating footprints on sheet ['PLL_4']
+04-01 16:04:05 root 266:updating GUI with: 37
+04-01 16:04:05 root 266:updating GUI with: 41
+04-01 16:04:05 root 266:updating GUI with: 45
+04-01 16:04:05 root 266:updating GUI with: 49
+04-01 16:04:05 root 266:updating GUI with: 53
+04-01 16:04:05 root 266:updating GUI with: 57
+04-01 16:04:05 root 266:updating GUI with: 62
+04-01 16:04:05 root 266:updating GUI with: 65
+04-01 16:04:05 root 266:updating GUI with: 65
+04-01 16:04:05 replicate_layout.replicatelayout 592:Replicating footprints on sheet ['PLL_5']
+04-01 16:04:05 root 266:updating GUI with: 67
+04-01 16:04:05 root 266:updating GUI with: 70
+04-01 16:04:05 root 266:updating GUI with: 74
+04-01 16:04:05 root 266:updating GUI with: 78
+04-01 16:04:05 root 266:updating GUI with: 82
+04-01 16:04:05 root 266:updating GUI with: 86
+04-01 16:04:05 root 266:updating GUI with: 89
+04-01 16:04:05 root 266:updating GUI with: 93
+04-01 16:04:05 root 266:updating GUI with: 98
+04-01 16:04:05 root 266:updating GUI with: 99
+04-01 16:04:05 root 261:updating GUI message: 'Replicating tracks'
+04-01 16:04:05 root 266:updating GUI with: 0
+04-01 16:04:05 replicate_layout.replicatelayout 712:Replicating tracks
+04-01 16:04:05 replicate_layout.replicatelayout 718:Replicating tracks on sheet ['PLL_3']
+04-01 16:04:05 root 266:updating GUI with: 0
+04-01 16:04:05 root 266:updating GUI with: 9
+04-01 16:04:05 root 266:updating GUI with: 26
+04-01 16:04:05 replicate_layout.replicatelayout 718:Replicating tracks on sheet ['PLL_4']
+04-01 16:04:05 root 266:updating GUI with: 33
+04-01 16:04:05 root 266:updating GUI with: 41
+04-01 16:04:05 root 266:updating GUI with: 53
+04-01 16:04:05 replicate_layout.replicatelayout 718:Replicating tracks on sheet ['PLL_5']
+04-01 16:04:05 root 266:updating GUI with: 66
+04-01 16:04:05 root 266:updating GUI with: 73
+04-01 16:04:05 root 266:updating GUI with: 84
+04-01 16:04:05 root 261:updating GUI message: 'Replicating zones'
+04-01 16:04:05 replicate_layout.replicatelayout 763:Replicating zones
+04-01 16:04:05 replicate_layout.replicatelayout 770:Replicating zones on sheet ['PLL_3']
+04-01 16:04:05 root 266:updating GUI with: 5
+04-01 16:04:05 replicate_layout.replicatelayout 770:Replicating zones on sheet ['PLL_4']
+04-01 16:04:05 root 266:updating GUI with: 38
+04-01 16:04:05 replicate_layout.replicatelayout 770:Replicating zones on sheet ['PLL_5']
+04-01 16:04:05 root 266:updating GUI with: 72
+04-01 16:04:05 root 261:updating GUI message: 'Replicating text'
+04-01 16:04:05 replicate_layout.replicatelayout 829:Replicating text
+04-01 16:04:05 replicate_layout.replicatelayout 836:Replicating text on sheet ['PLL_3']
+04-01 16:04:05 replicate_layout.replicatelayout 836:Replicating text on sheet ['PLL_4']
+04-01 16:04:05 replicate_layout.replicatelayout 836:Replicating text on sheet ['PLL_5']
+04-01 16:04:05 root 261:updating GUI message: 'Replicating drawings'
+04-01 16:04:05 replicate_layout.replicatelayout 860:Replicating drawings
+04-01 16:04:05 replicate_layout.replicatelayout 866:Replicating drawings on sheet ['PLL_3']
+04-01 16:04:05 replicate_layout.replicatelayout 866:Replicating drawings on sheet ['PLL_4']
+04-01 16:04:05 replicate_layout.replicatelayout 866:Replicating drawings on sheet ['PLL_5']
+04-01 16:04:08 replicate_layout.action_replicate_layout 201:Replication complete

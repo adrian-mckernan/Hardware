@@ -1,0 +1,7 @@
+(fp_lib_table
+  (lib (name LTC6946)(type KiCad)(uri ${LOCALLIB}/modules/LTC6946.pretty)(options "")(descr ""))
+  (lib (name MAX3089)(type KiCad)(uri ${LOCALLIB}/modules/MAX3089.pretty)(options "")(descr ""))
+  (lib (name ADP7118AUJZR7)(type KiCad)(uri ${PROJECTS}/LTC6946/ADP7118AUJZR7/ADP7118AUJZR7/ADP7118AUJZR7.pretty)(options "")(descr ""))
+  (lib (name Jumper)(type KiCad)(uri ${LOCALLIB}/modules/Jumper.pretty)(options "")(descr ""))
+  (lib (name Package_QFP)(type KiCad)(uri ${LOCALLIB}/modules/kicad-footprints-master/Package_QFP.pretty)(options "")(descr ""))
+)

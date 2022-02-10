@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name LTC6946)(type Legacy)(uri ${LOCALLIB}/component/LTC6946.lib)(options "")(descr ""))
+  (lib (name ADP7118AUJZR7)(type Legacy)(uri ${LOCALLIB}/component/ADP7118AUJZR7.lib)(options "")(descr ""))
+  (lib (name PLL_v1-rescue)(type Legacy)(uri ${KIPRJMOD}/PLL_v1-rescue.lib)(options "")(descr ""))
+)
